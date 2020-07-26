@@ -1,0 +1,66 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="500"
+        x:Class="Timesheet.GUI.Views.RegisterView">
+  
+  <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <StackPanel Grid.Column="0">
+        <TextBlock Text="Register your account"
+                   FontSize="20"
+                   TextAlignment="Center"
+                   FontWeight="SemiBold"
+                   Margin="4 5"/>
+
+        <TextBox Text="{Binding Name}"
+                 Watermark="Enter your full name"
+                 FontSize="15"
+                 Width="400"
+                 Margin="4 5" />
+
+        <TextBox Text="{Binding MobileNumber}"
+                 Watermark="Enter your mobile number"
+                 FontSize="15"
+                 Width="400"
+                 Margin="4 5" />
+        
+        <TextBox Text="{Binding Email}"
+                 Watermark="Enter your e-mail"
+                 FontSize="15"
+                 Width="400"
+                 Margin="4 5" />
+
+        <TextBox Text="{Binding Password}"
+                 Watermark="Enter your password"
+                 FontSize="15"
+                 Width="400"
+                 Margin="4 10" />
+
+      </StackPanel>
+    </Grid>
+    <Grid Grid.Row="1">
+      <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+        <Button Command="{Binding $parent[Window].DataContext.Login}"
+                Width="200"
+                Margin="2"
+                FontSize="20"
+                FontWeight="SemiBold"
+                Foreground="White"
+                Background="Blue">Log-In</Button>
+        <Button Command="{Binding Register}"
+                Width="200"
+                Margin="2"
+                FontSize="20"
+                FontWeight="SemiBold"
+                Foreground="White"
+                Background="Green">Register</Button>
+      </StackPanel>
+    </Grid>
+  </Grid> 
+</UserControl>
