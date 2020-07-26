@@ -1,8 +1,0 @@
-D:\repos\Timesheet\Timesheet.Contracts\bin\Debug\netcoreapp3.1\Timesheet.Contracts.deps.json
-D:\repos\Timesheet\Timesheet.Contracts\bin\Debug\netcoreapp3.1\Timesheet.Contracts.dll
-D:\repos\Timesheet\Timesheet.Contracts\bin\Debug\netcoreapp3.1\Timesheet.Contracts.pdb
-D:\repos\Timesheet\Timesheet.Contracts\obj\Debug\netcoreapp3.1\Timesheet.Contracts.csprojAssemblyReference.cache
-D:\repos\Timesheet\Timesheet.Contracts\obj\Debug\netcoreapp3.1\Timesheet.Contracts.AssemblyInfoInputs.cache
-D:\repos\Timesheet\Timesheet.Contracts\obj\Debug\netcoreapp3.1\Timesheet.Contracts.AssemblyInfo.cs
-D:\repos\Timesheet\Timesheet.Contracts\obj\Debug\netcoreapp3.1\Timesheet.Contracts.dll
-D:\repos\Timesheet\Timesheet.Contracts\obj\Debug\netcoreapp3.1\Timesheet.Contracts.pdb
